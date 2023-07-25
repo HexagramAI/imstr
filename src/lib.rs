@@ -36,3 +36,6 @@ mod peg;
 
 #[cfg(feature = "nom")]
 mod nom;
+
+#[cfg(feature = "serde")]
+mod serde;
